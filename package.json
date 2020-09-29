@@ -1,0 +1,31 @@
+{
+  "name": "node-js-upload-csv-files",
+  "version": "1.0.0",
+  "description": "Node.js Upload csv file to MySQL database - Rest Api",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node js",
+    "upload",
+    "import",
+    "download",
+    "csv",
+    "file",
+    "mysql",
+    "database",
+    "rest",
+    "api"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.2",
+    "json2csv": "^5.0.3",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
